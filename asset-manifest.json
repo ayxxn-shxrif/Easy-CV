@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ayxxn-shxrif.github.io/Easy-CV/static/css/main.7fd8fc4f.css",
-    "main.js": "/ayxxn-shxrif.github.io/Easy-CV/static/js/main.f7d83881.js",
-    "static/media/Raleway-Regular.ttf": "/ayxxn-shxrif.github.io/Easy-CV/static/media/Raleway-Regular.9ade142e81dd8d55cd32.ttf",
-    "static/media/Raleway-SemiBold.ttf": "/ayxxn-shxrif.github.io/Easy-CV/static/media/Raleway-SemiBold.243af299ad3631bfc369.ttf",
-    "static/media/Raleway-ExtraBold.ttf": "/ayxxn-shxrif.github.io/Easy-CV/static/media/Raleway-ExtraBold.ac7bcb8a0f4abc1d6591.ttf",
-    "index.html": "/ayxxn-shxrif.github.io/Easy-CV/index.html",
-    "main.7fd8fc4f.css.map": "/ayxxn-shxrif.github.io/Easy-CV/static/css/main.7fd8fc4f.css.map",
-    "main.f7d83881.js.map": "/ayxxn-shxrif.github.io/Easy-CV/static/js/main.f7d83881.js.map"
+    "main.css": "/Easy-CV/static/css/main.9e99eba2.css",
+    "main.js": "/Easy-CV/static/js/main.f7d83881.js",
+    "static/media/Raleway-Regular.ttf": "/Easy-CV/static/media/Raleway-Regular.9ade142e81dd8d55cd32.ttf",
+    "static/media/Raleway-SemiBold.ttf": "/Easy-CV/static/media/Raleway-SemiBold.243af299ad3631bfc369.ttf",
+    "static/media/Raleway-ExtraBold.ttf": "/Easy-CV/static/media/Raleway-ExtraBold.ac7bcb8a0f4abc1d6591.ttf",
+    "index.html": "/Easy-CV/index.html",
+    "main.9e99eba2.css.map": "/Easy-CV/static/css/main.9e99eba2.css.map",
+    "main.f7d83881.js.map": "/Easy-CV/static/js/main.f7d83881.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fd8fc4f.css",
+    "static/css/main.9e99eba2.css",
     "static/js/main.f7d83881.js"
   ]
 }
