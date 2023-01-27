@@ -1,0 +1,29 @@
+#Main {
+  min-height: calc(100vh - 250px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.floating-container {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  bottom: 0;
+  right: 0;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 40rem) {
+  .floating-container {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 30rem) {
+  .floating-container {
+    width: 60px;
+    height: 60px;
+  }
+}

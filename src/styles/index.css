@@ -1,0 +1,272 @@
+/* Fonts */
+@font-face {
+  font-family: 'Raleway-Regular';
+  font-weight: 400;
+  src: local('Raleway'),
+    url(../assets/fonts/Raleway-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway-SemiBold';
+  font-weight: 600;
+  src: local('Raleway'),
+    url(../assets/fonts/Raleway-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway-ExtraBold';
+  font-weight: 900;
+  src: local('Raleway'),
+    url(../assets/fonts/Raleway-ExtraBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v2/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjDw-qXA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v2/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjPQ-qXA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v2/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj0QiqXA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v2/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj6AiqXA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVuEooCP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaooCP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pYCP.ttf) format('truetype');
+}
+
+/* Color palette */
+:root {
+  --white: #ffffff;
+  --grey: #f0f0f0;
+  --green: #c0dad9;
+  --red: #f2c9c9;
+  --dark-blue: #394066;
+  --light-blue: #c4d7f4;
+  --orange: #fdd5c0;
+  --purple: #dfc6e3;
+}
+
+/* Animation */
+@keyframes slideDown {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* General styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway-Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  color: var(--dark-blue);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+form {
+  margin-bottom: 30px;
+  padding: 0 0 30px 0;
+  font-size: 1.2rem;
+    -webkit-animation: slideDown 0.3s;
+  animation: slideDown 0.3s;
+}
+
+form div {
+  display: flex;
+  justify-content: space-around;
+}
+
+form input {
+  display: flex;
+  width: 200px;
+  height: 25px;
+  margin: 5px 0 10px 0;
+  padding: 2px 10px;
+  border: 1px solid var(--dark-blue);
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+form input:focus {
+  outline: none;
+  transition: 0.3s;
+}
+
+select {
+  border-radius: 2px;
+}
+
+fieldset {
+  display: flex;
+  margin: 10px 0;
+  padding: 15px 13px;
+  border: 1px solid var(--dark-blue);
+}
+
+#employment-type,
+#practice-start-month,
+#practice-end-month,
+#education-start-month,
+#education-end-month {
+  padding: 2px 10px;
+  height: 31px;
+  border: 1px solid var(--dark-blue);
+  background-color: var(--white);
+  transition: 0.3s;
+}
+
+#employment-type:focus,
+#practice-start-month:focus,
+#practice-end-month:focus,
+#education-start-month:focus,
+#education-end-month:focus {
+  outline: none;
+  transition: 0.3s;
+}
+
+.practice-start-month,
+.practice-end-month,
+.education-start-month,
+.education-end-month {
+  display: flex;
+  flex-direction: column;
+  width: 222px;
+  margin: 5px 0 0 28px;
+}
+
+.practice-title,
+.education-school {
+  margin: 0 20px 5px 20px;
+  font-family: 'Raleway-SemiBold';
+  text-transform: capitalize;
+}
+
+.practice-company,
+.education-field {
+  font-family: 'Raleway-Regular';
+  font-style: italic;
+}
+
+.preview-date {
+  margin: 0 20px;
+}
+
+.practice-task,
+.education-degree {
+  margin: 10px 20px;
+}
+
+.practice-type,
+.education-grade {
+  margin: 0 20px 20px 20px;
+  padding-bottom: 10px;
+}
+
+.practice-task span,
+.practice-type span,
+.education-degree span,
+.education-grade span {
+  font-family: 'Raleway-SemiBold';
+}
+
+.present-comment {
+  margin: 5px 0 0 0;
+  font-size: 0.85rem;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 40rem) {
+  form {
+    font-size: 1rem;
+  }
+
+  form div {
+    flex-direction: column;
+  }
+
+  form input {
+    width: 300px;
+  }
+
+  form label {
+    margin: 0 auto;
+  }
+  
+  fieldset {
+    flex-direction: column;
+    padding: 15px 5px 20px 5px;
+  }
+
+  .practice-start-month,
+  .practice-end-month,
+  .education-start-month,
+  .education-end-month {
+    width: 322px;
+    margin: 0 13px;
+  }
+}
+
+@media screen and (max-width: 30rem) {
+  fieldset {
+    padding: 15px 5px;
+    border: none;
+  }
+
+  fieldset legend {
+    margin-left: 16px;
+    height: 10px;
+  }
+
+  .practice-start-month,
+  .practice-end-month,
+  .education-start-month,
+  .education-end-month {
+    margin-left: 18px;
+  }
+}
