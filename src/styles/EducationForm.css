@@ -1,0 +1,18 @@
+.education-form {
+  padding-bottom: 60px;
+  border-bottom: 3px solid var(--purple);
+}
+
+.education-form input:focus {
+  border: 1px solid var(--purple);
+}
+
+#education-start-month:focus,
+#education-end-month:focus {
+  border: 1px solid var(--purple);
+}
+
+.add-education-form {
+  padding-bottom: 50px;
+  border-bottom: 3px solid var(--purple);
+}

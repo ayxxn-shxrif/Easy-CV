@@ -1,0 +1,37 @@
+.preview-box {
+  width: 600px;
+  -webkit-animation: slideDown 0.3s;
+  animation: slideDown 0.3s;
+}
+
+.preview-info-heading {
+  margin: 30px 20px 20px 20px;
+  font-family: 'Raleway-SemiBold';
+  font-size: 1.3rem;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 40rem) {
+  .preview-box {
+    max-width: 450px;
+  }
+
+  .person-name {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 30rem) {
+  .preview-box {
+   max-width: 400px;
+   margin: 20px 10px;
+  }
+
+  .preview-info-heading {
+    padding: 0 10px;
+  }
+
+  .person-name {
+    font-size: 1.2rem;
+  }
+}

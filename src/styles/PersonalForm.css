@@ -1,0 +1,32 @@
+.personal-form {
+  border-bottom: 3px solid var(--red);
+}
+
+.personal-form input:focus {
+  border: 1px solid var(--red);
+}
+
+#about {
+  display: flex;
+  width: 450px;
+  height: 50px;
+  margin: 2px 0 10px 0;
+  padding: 10px;
+  font-family: 'Raleway-Regular';
+  border: 1px solid var(--dark-blue);
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+#about:focus {
+  outline: none;
+  border: 1px solid var(--red);
+  transition: 0.3s;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 40rem) {
+ #about {
+  width: 300px;
+ }
+}

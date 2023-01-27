@@ -1,0 +1,123 @@
+/* Preview and Edit buttons (with strings as values) */
+.main-button {
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  background-color: var(--grey);
+  font-family: 'Raleway-SemiBold';
+  font-size: 1.3rem;
+  color: var(--dark-blue);
+  border: none;
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+
+/* Font Awesome buttons (with icons as values) */
+.fontAwesome-button {
+  height: 40px;
+  margin: 0 10px 0 0;
+  padding: 10px;
+  background-color: var(--grey);
+  color: var(--dark-blue);
+  font-size: 1rem;
+  border: none;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+/* Deleting/adding information */
+.delete-button,
+.add-button {
+  margin-top: 5px;
+  float: right;
+}
+
+/* Adding a first form */
+.add-first-form-button {
+  margin-top: -6px;
+  float: right;
+}
+
+/* Adding a skill */
+.add-skill-button {
+  margin-top: 20px;
+}
+
+/* Deleting an added skill */
+.delete-skill-button {
+  font-size: 1rem;
+  color: var(--dark-blue);
+  background-color: var(--grey);
+  border: none;
+  transition: 0.3s;
+}
+
+/* Scrolling back to the top */
+.floating-button {
+  padding: 10px;
+  font-size: 1.3rem;
+  color: var(--dark-blue);
+  background-color: var(--grey);
+  border: none;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+/* Colors of buttons hovers */
+.green-hover:hover {
+  background-color: var(--green);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.red-hover:hover {
+  background-color: var(--red);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.blue-hover:hover {
+  background-color: var(--light-blue);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.orange-hover:hover {
+  background-color: var(--orange);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.purple-hover:hover {
+  background-color: var(--purple);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 40rem) {
+  .main-button {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+  }
+
+  .add-skill-button {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 30rem) {
+  .fontAwesome-button {
+    margin-right: 0;
+  }
+
+  .add-button,
+  .add-first-form-button,
+  .delete-button {
+    margin-right: 15px;
+  }
+
+  .add-skill-button {
+    margin-right: 15px;
+  }
+}

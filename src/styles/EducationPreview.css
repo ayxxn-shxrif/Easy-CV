@@ -1,0 +1,15 @@
+.education-preview {
+  border-bottom: 3px solid var(--purple);
+}
+
+.education-degree,
+.education-grade {
+  text-transform: capitalize;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 30rem) {
+  .education-preview div {
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,34 @@
+.practice-form {
+  padding-bottom: 60px;
+  border-bottom: 3px solid var(--orange);
+}
+
+.practice-form input:focus,
+#employment-type:focus,
+#practice-start-month:focus,
+#practice-end-month:focus {
+  border: 1px solid var(--orange);
+}
+
+.employment-label {
+  display: flex;
+  flex-direction: column;
+}
+
+#employment-type {
+  margin-top: 5px;
+  width: 222px;
+}
+
+.add-practice-form {
+  padding-bottom: 50px;
+  border-bottom: 3px solid var(--orange);
+}
+
+/* Responsive styles */
+@media screen and (max-width: 40rem) {
+  #employment-type {
+    width: 322px;
+    margin-bottom: 10px;
+  }
+}

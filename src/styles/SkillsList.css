@@ -1,0 +1,39 @@
+.skills-list {
+  max-width: 450px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin-left: 7px;
+}
+
+.skill {
+  margin: 5px;
+  font-size: 1rem;
+  overflow-y: auto;
+  background-color: var(--grey);
+  border-radius: 2px;
+  -webkit-animation: slideDown 0.3s;
+  animation: slideDown 0.3s;
+}
+
+.skill-text {
+  margin: 8px 5px 8px 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 40rem) {
+  .skills-list {
+    max-width: 350px;
+    margin-left: 18px;
+  }
+
+  .skill {
+    flex-direction: row;
+  }
+
+  .skill-text {
+    max-width: 100px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}

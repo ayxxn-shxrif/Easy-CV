@@ -1,0 +1,14 @@
+.error-message {
+  margin: 25px 15px 0 13px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 400;
+  background-color: var(--red);
+  border-radius: 2px;
+  -webkit-animation: slideDown 0.3s;
+  animation: slideDown 0.3s;
+}
+
+.error-message span {
+  font-style: italic;
+}

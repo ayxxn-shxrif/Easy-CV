@@ -1,0 +1,49 @@
+.personal-preview {
+  padding-bottom: 30px;
+  border-bottom: 3px solid var(--red);
+}
+
+.person-name {
+  margin: 20px 0 30px 0;
+  padding: 20px;
+  background-color: var(--dark-blue);
+  font-family: 'Raleway-SemiBold';
+  color: var(--white);
+  text-align: center;
+  border-radius: 2px;
+}
+
+.person-title {
+  text-transform: capitalize;
+}
+
+.person-contacts {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.person-contacts p {
+  margin: 0 0 10px 0;
+}
+
+.person-about {
+  margin: 0 20px;
+}
+
+.person-contacts span,
+.person-about span {
+  font-family: 'Raleway-SemiBold';
+}
+
+/* Responsive styles */
+@media screen and (max-width: 30rem) {
+  .person-contacts p {
+    font-size: 0.8rem;
+  }
+
+  .person-contacts,
+  .person-about {
+    padding: 0 10px;
+  }
+ }

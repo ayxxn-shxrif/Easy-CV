@@ -1,0 +1,41 @@
+.skills-form {
+  border-bottom: 3px solid var(--light-blue);
+}
+
+.skills-form label {
+  margin-left: 13px;
+}
+
+.skills-form input:focus {
+  border: 1px solid var(--light-blue);
+}
+
+.skills-handling {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 40rem) {
+  .skills-form {
+    max-width: 370px;
+  }
+
+  .skills-form label {
+    margin-left: 19px;
+  }
+
+  .skills-handling {
+    flex-direction: row;
+  }
+
+  .skills-handling input {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 30rem) {
+  .skills-form label {
+    margin: 0 18px 0 24px;
+  }
+}

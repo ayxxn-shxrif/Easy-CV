@@ -1,0 +1,11 @@
+.practice-preview {
+  border-bottom: 3px solid var(--orange);
+}
+
+/* Responsive styles */
+@media screen and (max-width: 30rem) {
+  .practice-preview div {
+    padding: 0 10px;
+  }
+}
+

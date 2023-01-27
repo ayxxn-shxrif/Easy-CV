@@ -1,0 +1,26 @@
+.skills-preview {
+  padding-bottom: 30px;
+  border-bottom: 3px solid var(--light-blue);
+}
+
+.skills-preview-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 15px;
+}
+
+.skills-preview-text {
+  margin: 5px;
+  padding: 8px 10px;
+  background-color: var(--grey);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 2px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 30rem) {
+  .skills-preview-list {
+    padding: 0 10px;
+  }
+}
