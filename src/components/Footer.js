@@ -26,7 +26,7 @@ class Footer extends React.Component {
           </a>
           &nbsp;|&nbsp;
           <a
-            href="https://github.com/"
+            href="https://github.com/ayxxn-shxrif/Easy-CV"
             target="_blank"
             className="footer-link"
             rel="noreferrer"
