@@ -4,13 +4,11 @@
 
 <div align="center">
 
-  <h1>
-    <img alt="CV app logo" src="" height="40px">
-  </h1>
 
-  <p>A CV application that graphically displays the information provided. </p>
 
-🔗 <b>[Live preview](https://ayxxnshxrif.github.io/Easy-CV/)</b>
+  <h1>Easily make a nice CV on the run!</h1>
+
+🔗 <b>[Try it!](https://ayxxn-shxrif.me/Easy-CV/)</b>
 
 </div>
 
@@ -24,6 +22,7 @@
 - [Build Process](#build-process)
 - [Usage](#usage)
 - [Outcome](#outcome)
+- [Wanna Contribute?](#contributions)
 - [Authors](#authors)
 
 ## About the Project
@@ -62,8 +61,7 @@ CV Application project, created with React [library](https://reactjs.org/) and `
 - [uniqid package](https://www.npmjs.com/package/uniqid)
 - [Font Awesome icons](https://fontawesome.com/)
 
-<img alt="Edit mode interface" src="">
-<img alt="Preview mode interface" src="">
+
 
 <p align="right">⬆️ <a href="#top">Back to top</a></p>
 
@@ -119,6 +117,12 @@ $ npm start
 - Learned to import and use fonts locally
 - Learned the basics of validating prop types and creating default props
 
+## Contributions
+
+Contributions are always welcome! If you have any suggestions or bug fixes, feel free to submit a pull request.
+
+
+
 ## Authors
 
-[ayxxn-shxrif](https://github.com/ayxxn-shxrif) | [LinkedIn](https://linkedin.com/in/ayaansharif)
+[ayxxn-shxrif](https://ayxxn-shxrif.me) | [LinkedIn](https://linkedin.com/in/ayaansharif)
